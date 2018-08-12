@@ -1,0 +1,12 @@
+AllCops:
+  Exclude:
+    - "app/assets/**/*"
+    - "app/views/**/*"
+    - "bin/**/*"
+    - "bundle_bin/**/*"
+    - "db/**/*"
+    - "log/**/*"
+    - "tmp/**/*"
+    - "vendor/**/*"
+    - "Gemfile"
+    - "Gemfile.lock"
