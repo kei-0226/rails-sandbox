@@ -4,3 +4,9 @@
 require_relative 'config/application'
 
 Rails.application.load_tasks
+
+namespace :db do
+  desc 'drop and create, migrate'
+  task build: [:drop, :create, :migrate] do
+  end
+end
